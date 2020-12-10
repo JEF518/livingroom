@@ -1,0 +1,254 @@
+body{
+  width: auto;
+  background: #3F011A;
+  margin: 0;
+}
+hr {
+  border-color: #0e0e0ef7;
+  border-width: medium;
+}
+.living-room {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  background: none;
+  justify-content: center;
+  padding-top: 70px;
+}
+.wallpaper {
+  position: absolute;
+  top:0;
+  bottom:0;
+  background:
+  radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px) 0px 10px,
+  radial-gradient(at 100% 100%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px),
+  #4F631D;
+  background-size: 20px 20px;;
+  width: 100%;
+  z-index: -100;
+  margin-bottom: 50px;
+}
+.skirtingboard {
+  position: absolute;
+  width: 100%;
+  background: #442713;
+  bottom: 50px;
+  height: 45px;
+  border-style: solid;
+  border-width: 1px;
+}
+.recordplayer-and-mediaunit {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+.recordplayer {
+  display: flex;
+  order: 1;
+}
+.recordplayer-speaker-left {
+  margin-top: 2.8%;
+  float: left;
+  height: 200px;
+  width: 100px;
+  background-color: #3d1807;
+  border-style: solid;
+  border-width: 3px;
+}
+.recordplayer-body {
+  margin-top: 16.7%;
+  height: 100px;
+  width: 500px;
+  background-color: #3d1807;
+  border-style: solid;
+  border-width: 3px;
+}
+.record-player-arm-base {
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 375px;
+  width: 20px;
+  height: 40px;
+  background-color: black;
+}
+.record-player-arm {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: -40px;
+  width: 210px;
+  height: 10px;
+  background-color: black;
+}
+
+.record-player-arm-raised {
+  transform: rotate(15deg);
+}
+
+.record-player-needle {
+  position:absolute;
+  margin: -40px 205;
+  height: 30px;
+  width: 4px;
+  background-color: black;
+}
+
+.record-player-needle-raised {
+  margin-top: -58px;
+}
+
+.recordplayer-speaker-right {
+  margin-top: 2.8%;
+  float: right;
+  height: 200px;
+  width: 100px;
+  background-color: #3d1807;
+  border-style: solid;
+  border-width: 3px;
+}
+.inner-speaker-small {
+  margin: 30px auto;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: black;
+}
+.inner-speaker-large {
+  position: relative;
+  margin: 30px auto;
+  height: 75px;
+  width: 70px;
+  border-radius: 40px;
+  background-color: black;
+}
+.inner-speaker-large-inner {
+  position: absolute;
+  margin: 15px 0 0 15px;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: #141414;
+}
+.record {
+  margin: -10px auto;
+  height: 20px;
+  width: 300px;
+  border-radius: 40px;
+  background-color: black;
+}
+.record-middle-label {
+  margin: auto;
+  height: 5px;
+  width: 30px;
+  border-radius: 3px;
+  background-color: #631717;
+}
+
+/* .record-middle-hole {
+  margin: auto;
+  height: 10px;
+  width: 8px;
+  border-radius: 3px;
+  background-color: #3d1807;
+} */
+
+.record-player-buttons {
+  display:flex;
+  float:right;
+  margin: 30px 40px 0 0;
+}
+
+.record-player-volume {
+  margin: 10px;
+  height: 25px;
+  width: 25px;
+  border-radius: 40px;
+  background-color: black;
+}
+
+.record-player-treble {
+  margin: 10px;
+  height: 25px;
+  width: 25px;
+  border-radius: 40px;
+  background-color: black;
+}
+
+.record-player-bass {
+  margin: 10px;
+  height: 25px;
+  width: 25px;
+  border-radius: 40px;
+  background-color: black;
+}
+.media-unit {
+  order: 2;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 715px;
+  background-color:#231804;
+  z-index: 900;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.media-unit-inner {
+  display: inline-flex;
+  margin: 20px 46px;
+  height: 150px;
+  width: 250px;
+  z-index: 950;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.lamp{
+  float:right;
+  position: relative;
+  order: 3;
+}
+.lampshade {
+  margin: auto;
+  width: 175px;
+  height: 175px;
+  background: beige;
+  background-size: 40px 60px;  transform: perspective(10px) rotateX(1deg);
+  border-style: solid;
+  border-width: 2px;
+}
+.lamp-pull {
+  display: flex;
+  height: 75px;
+  width: 2px;
+  background-color: black;
+  position: absolute;
+  margin: 14px 160px;
+}
+.lamp-pull-bead {
+  position:absolute;
+  margin: 75px 0 0 153px;
+  height: 17px;
+  width: 17px;
+  border-radius: 40px;
+  background-color: black;
+}
+.lamp-stand {
+  margin: auto;
+  height: 400px;
+  width: 20px;
+  background-color: #442713;
+  border-style: solid;
+  border-width: 2px;
+  border-bottom: none;
+}
+.lamp-stand-base {
+  margin: auto;
+  height: 20px;
+  width: 200px;
+  border-radius: 40px;
+  background-color: #442713;
+  border-style: solid;
+  border-width: 2px;}

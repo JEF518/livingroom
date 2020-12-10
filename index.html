@@ -1,0 +1,63 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="living-room">
+    <div class="wallpaper"> </div>
+    <div class="skirtingboard"><hr/></div>
+    <div class="recordplayer-and-mediaunit">
+      <div class="recordplayer">
+        <div class="recordplayer-speaker-left">
+          <div class="inner-speaker-small"></div>
+          <div class="inner-speaker-large">
+            <div class="inner-speaker-large-inner"></div>
+          </div>
+        </div>
+      <div class="recordplayer-body">
+        <div class="record">
+          <div class="record-middle-label"></div>
+          <div class="record-middle-hole"></div>
+        </div>
+        <div class="record-player-arm record-player-arm-raised" onclick="playSong(event)"></div>
+        <div class="record-player-needle record-player-needle-raised" ></div>
+        <div class="record-player-arm-base" onclick="playSong(event)"></div>
+        <div class="record-player-buttons">
+          <div class="record-player-volume"></div>
+          <div class="record-player-treble"></div>
+          <div class="record-player-bass"></div>
+        </div>
+      </div>
+        <div class="recordplayer-speaker-right">
+          <div class="inner-speaker-small"></div>
+          <div class="inner-speaker-large">
+          <div class="inner-speaker-large-inner"></div>
+        </div>
+        </div>
+      </div>
+      <div class="media-unit">
+        <div class="media-unit-inner"></div>
+        <div class="media-unit-inner"></div>
+      </div>
+    </div>
+    <div class="lamp">
+      <div class="lampshade" light-on=""></div>
+        <div class="lamp-pull" onclick="lampPull(event)"></div>
+        <div class="lamp-pull-bead" onclick="lampPull(event)"></div>
+      <div class="lamp-stand"></div>
+      <div class="lamp-stand-base"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
