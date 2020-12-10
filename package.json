@@ -1,0 +1,25 @@
+{
+  "name": "livingroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JEF518/livingroom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JEF518/livingroom/issues"
+  },
+  "homepage": "https://github.com/JEF518/livingroom#readme",
+  "dependencies": {
+    "@koa/router": "^9.3.1",
+    "koa": "^2.13.0",
+    "koa-static": "^5.0.0"
+  }
+}
